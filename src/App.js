@@ -56,7 +56,7 @@ function App() {
                 <strong>{m.role === "user" ? "You" : "KITT"}:</strong> {m.content}
               </div>
             ))}
-            {loading && <div className="chat-bubble bot">Bot is typing...</div>}
+            {loading && <div className="chat-bubble bot">KITT is thinking ...</div>}
             <div ref={chatEndRef} />
           </>
         )}
