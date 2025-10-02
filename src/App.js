@@ -53,7 +53,7 @@ function App() {
           <>
             {messages.map((m, i) => (
               <div key={i} className={`chat-bubble ${m.role}`}>
-                <strong>{m.role === "user" ? "You" : "Bot"}:</strong> {m.content}
+                <strong>{m.role === "user" ? "You" : "KITT"}:</strong> {m.content}
               </div>
             ))}
             {loading && <div className="chat-bubble bot">Bot is typing...</div>}
