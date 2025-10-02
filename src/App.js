@@ -42,12 +42,12 @@ function App() {
 
   return (
     <div className="chat-container">
-      <h1>🧠 Mini Knowledge Chat</h1>
+      <h1>🐱 KITT </h1>
       <div className="chat-box">
         {messages.length === 0 ? (
           <div className="empty-state">
-            <img src="/jason.png" alt="logo" className="logo" />
-            <p>Start chatting with the bot!</p>
+            <img src="/KITT.png" alt="logo" className="logo" />
+            <p>Start chatting with the KITT from Knight Rider!</p>
           </div>
         ) : (
           <>
