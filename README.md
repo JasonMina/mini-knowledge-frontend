@@ -69,7 +69,7 @@ A fullstack demo project featuring a Knight Riderâ€“inspired conversational
 
 ## Screenshots
 
-![KITT Chat UI](KITT_UI.png)
+![KITT Chat UI](KITT-UI.png)
 
 ---
 
